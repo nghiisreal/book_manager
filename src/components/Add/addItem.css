@@ -1,0 +1,67 @@
+body {
+    padding-right: 0px !important;
+}
+
+.card__style {
+    width: 50%;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 2px 5px 10px 5px #aaaaaa;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.modal__image {
+    background: #1f1f1f89;
+
+    color: white;
+}
+
+.modal__image {
+    border-top: none;
+}
+
+select {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    padding: 6px 10px;
+    margin: 0;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+    border-radius: 3px;
+    border: 1px solid rgba(138, 138, 138, 0.467);
+    z-index: 1;
+}
+
+#formUpdateBook,
+#formAddBook {
+    height: 570px;
+    overflow-y: auto
+}
+
+thead {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 2;
+    /* đảm bảo thead luôn ở trên */
+    vertical-align: middle;
+}
+
+#inputCustomerName {
+    z-index: 10;
+}

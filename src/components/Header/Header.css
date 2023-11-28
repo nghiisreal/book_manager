@@ -1,0 +1,12 @@
+.activeNavItem {
+    color: black !important;
+    background-color: white !important;
+    font-weight: 700;
+    border-radius: 8px;
+}
+
+.bg_navbar {
+    background-image: url('/public/img/navbar_bgg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

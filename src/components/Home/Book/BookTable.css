@@ -1,0 +1,12 @@
+table {
+  text-align: center;
+}
+
+td {
+  height: 10px;
+  line-height: 50px;
+  white-space: nowrap;
+}
+.hinhAnh {
+  width: 40px;
+}

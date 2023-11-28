@@ -1,0 +1,25 @@
+.bg-404 {
+    height: 100vh;
+    background-image: url("./img/background404.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.error-box {
+    padding: 40px 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.error-btn {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 10px;
+}
+
+.login-btn {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 10px;
+}

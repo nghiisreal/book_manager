@@ -1,0 +1,50 @@
+.chart__statistic {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    max-width: 41rem;
+    max-height: 400px;
+}
+
+.pie__statistic {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    max-width: 32.9rem;
+    max-height: 400px;
+}
+
+.chart__statistic2 {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    max-width: 39.5rem;
+    max-height: 400px;
+}
+
+.chart__statistic3 {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    max-width: 48rem;
+    max-height: 400px;
+}
+
+.input__statis {
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    border: none;
+    width: 5vw;
+}
+
+.data__statis {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+input:focus {
+    outline: 0;
+}
+
+.icon__dataStat {
+    /* border: 2px solid #8ad1ff; */
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    /* color: white; */
+}
+
+.text_stat {
+    font-size: 24px;
+    font-weight: 600;
+}

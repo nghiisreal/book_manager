@@ -1,0 +1,55 @@
+.create_h2 {
+    padding-top: 1.5rem;
+}
+
+.create_card {
+    border: 0.2rem solid #da5767;
+    top: 7%;
+
+}
+
+.create__input {
+    background-color: #f8f9fa;
+    padding: 20px 15px;
+    margin-bottom: 1.3rem;
+}
+
+.create__input:focus {
+
+    color: #000000;
+    background-color: #ffffff;
+    border: 3px solid #da5767;
+    outline: 0;
+    box-shadow: none;
+
+}
+
+.loginn__btn {
+    padding: 0.6rem 1.2rem;
+    background: #5780da;
+    border: 2px solid #5780da;
+    text-decoration: none;
+    color: white;
+}
+
+.loginn__btn:hover {
+    background-color: #749aec;
+    border-color: #749aec;
+    transition: .3s;
+    color: white;
+}
+
+.create__btn {
+    padding: 0.6rem 1.2rem;
+    background: #da5767;
+    border: 2px solid #da5767;
+    text-decoration: none;
+    color: white;
+}
+
+.create__btn:hover {
+    background-color: #df8c96;
+    border-color: #df8c96;
+    transition: .3s;
+    color: white;
+}

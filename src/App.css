@@ -1,0 +1,32 @@
+body {
+  background-image: url('../public/img/body_img.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+body::-webkit-scrollbar {
+  width: 0.8em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 30px rgba(15, 72, 119, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(132, 144, 255, 0.712);
+  border-radius: 20px;
+}
+
+thead {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+  /* đảm bảo thead luôn ở trên */
+  vertical-align: middle;
+}
+
+.toggle-password-button:focus {
+  background-color: transparent !important;
+}

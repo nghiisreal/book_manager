@@ -1,0 +1,14 @@
+footer {
+  background-image: url('../../../../public/img/navbar_bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  /* margin-top: 3vw; */
+  padding-top: 15px;
+  color: #fff;
+}
+
+section a:hover {
+  background-color: white !important;
+  color: black !important;
+}

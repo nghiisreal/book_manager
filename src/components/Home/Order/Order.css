@@ -1,0 +1,8 @@
+.style_link {
+    text-decoration: underline;
+    color: #0388fc;
+}
+
+.style_link:hover {
+    color: black !important;
+}

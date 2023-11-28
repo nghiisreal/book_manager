@@ -1,0 +1,126 @@
+.side__Bar {
+  min-height: 150vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: all 0.3s ease;
+  min-width: 13vw;
+  background-image: url('../../../../public/img/sidebar.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-right: 1px solid #bababacc;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+.tab-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.tab-pane {
+  flex: 1;
+}
+
+.tab__nav {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  width: 13vw;
+  line-height: 6vh;
+  margin-left: 10px;
+}
+
+.tab__nav:hover {
+  outline: none;
+  color: white !important;
+}
+
+button {
+  border: none;
+  font-size: 16px;
+  margin: 10px 0;
+  font-weight: 600;
+  color: white !important;
+}
+
+button.active {
+  outline: none;
+  background-color: rgb(16, 153, 107) !important;
+  color: white !important;
+}
+
+button:focus {
+  outline: none;
+  background-color: rgb(16, 153, 107) !important;
+  color: white !important;
+}
+
+@media only screen and (max-width: 1500px) {
+  .side__Bar {
+    min-height: 165vh;
+  }
+}
+
+@media only screen and (max-width: 1006px) {
+  .side__Bar {
+    min-height: 200vh;
+  }
+
+  .side__Bar span {
+    display: none;
+  }
+
+  .side__Bar i {
+    display: block;
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    height: 80px;
+    line-height: 80px;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 678px) {
+  .side__Bar {
+    min-height: 215vh;
+  }
+
+  .side__Bar span {
+    display: none;
+  }
+
+  .side__Bar i {
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  .tab__nav {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 280px) {
+  .side__Bar {
+    min-height: 220vh;
+  }
+
+  .side__Bar span {
+    display: none;
+  }
+
+  .side__Bar i {
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    height: 3px;
+    line-height: 3px;
+  }
+
+  .tab__nav {
+    margin-left: 0;
+  }
+}
