@@ -56,13 +56,13 @@ button:focus {
 
 @media only screen and (max-width: 1500px) {
   .side__Bar {
-    min-height: 230vh;
+    min-height: 225vh;
   }
 }
 
 @media only screen and (max-width: 1006px) {
   .side__Bar {
-    min-height: 220vh;
+    min-height: 215vh;
   }
 
   .side__Bar span {
