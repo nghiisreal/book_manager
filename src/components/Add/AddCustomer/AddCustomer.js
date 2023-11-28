@@ -76,7 +76,7 @@ export default function AddCustomer() {
       }
     }
 
-    const regexPhone = /^\d{10}$/;
+    const regexPhone = /^[0-9]{10,11}$/;
     // console.log(regexString.test(customerPhone));
     // console.log(customerPhone);
     if (isEmpty(customerPhone)) {

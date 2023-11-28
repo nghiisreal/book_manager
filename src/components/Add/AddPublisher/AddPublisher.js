@@ -57,7 +57,7 @@ export default function AddPublisher() {
       }
     }
 
-    const regexPhone = /^\d{10}$/;
+    const regexPhone = /^[0-9]{10,11}$/;
     // console.log(regexString.test(publisherPhone));
     // console.log(publisherPhone);
 

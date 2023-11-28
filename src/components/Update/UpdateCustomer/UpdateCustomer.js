@@ -89,7 +89,7 @@ export default function UpdateCustomer() {
       }
     }
 
-    const regexPhone = /^\d{10}$/;
+    const regexPhone = /^[0-9]{10,11}$/;
     // console.log(regexString.test(state.customer_phone));
 
     if (isEmpty(state.customer_phone)) {
