@@ -171,7 +171,7 @@ export default function UpdatePublisher() {
             id="inputPhonePublisher"
             name="publisher_phone"
             aria-describedby="phonePublisherHelp"
-            pattern="[0-9]{10}[0-9]{1}"
+            pattern="[0-9]{10,11}"
             maxLength={11}
             onKeyDown={(event) => {
               if (event.ctrlKey && event.key.toLowerCase() === 'a') {

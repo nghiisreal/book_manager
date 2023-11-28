@@ -163,7 +163,7 @@ export default function UpdateCustomer() {
             id="inputPhoneCustomer"
             name="customer_phone"
             aria-describedby="phoneCustomerHelp"
-            pattern="[0-9]{10}[0-9]{1}"
+            pattern="[0-9]{10,11}"
             maxLength={11}
             value={state.customer_phone}
             onKeyDown={(event) => {

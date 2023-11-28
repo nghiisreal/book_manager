@@ -129,7 +129,7 @@ export default function ChartBarExpense() {
             },
             title: {
               display: true,
-              text: 'Chi phí nhập kho năm 2023'
+              text: 'Chi phí nhập kho năm ' + (new Date().getFullYear() + 1)
             },
             // barThickness là độ rộng của các cột, maxBarThickness là độ rộng tối đa của cột
             barThickness: 40,

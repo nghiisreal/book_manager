@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 /* eslint-disable multiline-ternary */
 /* eslint-disable space-before-function-paren */
 /* eslint-disable semi */
@@ -167,7 +168,7 @@ export default function ChartBarCustomer() {
             },
             title: {
               display: true,
-              text: 'Top khách hàng mua nhiều đơn hàng nhất theo từng tháng năm 2023'
+              text: 'Top khách hàng mua nhiều đơn hàng nhất theo từng tháng năm ' + (new Date().getFullYear() + 1)
             },
             // barThickness là độ rộng của các cột, maxBarThickness là độ rộng tối đa của cột
             barThickness: 40,

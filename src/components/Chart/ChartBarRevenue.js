@@ -129,7 +129,7 @@ export default function ChartBarRevenue(props) {
             },
             title: {
               display: true,
-              text: 'Doanh thu theo từng tháng năm 2023'
+              text: 'Doanh thu theo từng tháng năm ' + (new Date().getFullYear() + 1)
             },
             // barThickness là độ rộng của các cột, maxBarThickness là độ rộng tối đa của cột
             barThickness: 40,
