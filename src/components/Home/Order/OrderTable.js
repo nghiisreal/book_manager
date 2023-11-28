@@ -242,6 +242,7 @@ function OrderTable(props) {
                 {order.order_date.substring(11, 16)}
               </td>
               <td>
+              <div>
                 <button
                   className="btn btn-primary me-2"
                   type="button"
@@ -250,6 +251,7 @@ function OrderTable(props) {
                   aria-controls="offcanvasRightOrder">
                   Xem Chi Tiết
                 </button>
+                </div>
                 <button
                   className="btn btn-dark me-2"
                   type="button"
@@ -541,6 +543,7 @@ function OrderTable(props) {
                   {order.order_date.substring(11, 16)}
                 </td>
                 <td>
+                  <div>
                   <button
                     className="btn btn-primary me-2"
                     type="button"
@@ -549,6 +552,7 @@ function OrderTable(props) {
                     aria-controls="offcanvasRightOrder">
                     Xem Chi Tiết
                   </button>
+                  </div>
                   <button
                     className="btn btn-dark me-2"
                     type="button"
