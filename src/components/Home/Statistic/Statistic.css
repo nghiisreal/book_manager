@@ -1,6 +1,6 @@
 .chart__statistic {
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-    max-width: 41rem;
+    max-width: 38rem;
     max-height: 400px;
 }
 
@@ -12,7 +12,7 @@
 
 .chart__statistic2 {
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-    max-width: 39.5rem;
+    max-width: 37rem;
     max-height: 400px;
 }
 
