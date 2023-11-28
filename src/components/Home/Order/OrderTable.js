@@ -362,7 +362,7 @@ function OrderTable(props) {
                     </span>
                     <span>
                       {order.order_date.substring(8, 10)}-{order.order_date.substring(5, 7)}-
-                      {order.order_date.substring(0, 4)} - {''}
+                      {order.order_date.substring(0, 4)} <br />
                       {order.order_date.substring(11, 16)}
                     </span>
                   </div>
@@ -668,7 +668,7 @@ function OrderTable(props) {
                       </span>
                       <span>
                         {order.order_date.substring(8, 10)}-{order.order_date.substring(5, 7)}-
-                        {order.order_date.substring(0, 4)} - {''}
+                        {order.order_date.substring(0, 4)} <br />
                         {order.order_date.substring(11, 16)}
                       </span>
                     </div>
