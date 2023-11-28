@@ -94,8 +94,8 @@ export default function UpdatePublisher() {
     // console.log(regexString.test(state.publisher_phone));
 
     if (!isEmpty(state.publisher_phone)) {
-      if (!regexPhone.test(state.publisher_phone.trim())) {
-        mess.publisherPhone = 'Điện thoại nhà xuất bản không được lớn hơn 11 số';
+      if (!regexPhone.test(state.publisher_phone.trim()).length < 10) {
+        mess.publisherPhone = 'Điện thoại nhà xuất bản không được nhỏ hơn 10 và lớn hơn 11 số';
       }
     }
 
