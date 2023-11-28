@@ -57,7 +57,7 @@ export default function PrintOrder(props) {
           <div className="card text-left" style={{ maxWidth: '40rem' }}>
             <div className="card-body">
               <h4 className="card-title text-center">
-                <b>NHÀ SÁCH TIN LÀNH</b>
+                <b>NHÀ SÁCH TL</b>
               </h4>
               <hr />
               <h2 className="card-title text-center" style={{ color: 'blue' }}>

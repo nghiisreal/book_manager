@@ -63,7 +63,7 @@ export default function Footer() {
             <div className="text-center p-2" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
                 © 2023 Copyright:{' '}
                 <a className="text-white" href="#">
-                    npbnghi
+                    npbnghi - 28/11/2023
                 </a>
             </div>
         </footer>
