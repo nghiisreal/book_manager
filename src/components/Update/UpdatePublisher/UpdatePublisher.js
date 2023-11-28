@@ -95,7 +95,7 @@ export default function UpdatePublisher() {
 
     if (!isEmpty(state.publisher_phone)) {
       if (!regexPhone.test(state.publisher_phone.trim())) {
-        mess.publisherPhone = 'Điện thoại nhà xuất bản không được nhỏ hoặc lớn hơn 10 số';
+        mess.publisherPhone = 'Điện thoại nhà xuất bản không được lớn hơn 11 số';
       }
     }
 
@@ -171,8 +171,8 @@ export default function UpdatePublisher() {
             id="inputPhonePublisher"
             name="publisher_phone"
             aria-describedby="phonePublisherHelp"
-            pattern="[0-9]{10}"
-            maxLength={10}
+            pattern="[0-9]{11}"
+            maxLength={11}
             onKeyDown={(event) => {
               if (event.ctrlKey && event.key.toLowerCase() === 'a') {
                 // Cho phép người dùng sử dụng tổ hợp phím Ctrl + A để chọn toàn bộ nội dung trong trường nhập liệu
