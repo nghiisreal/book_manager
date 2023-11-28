@@ -814,10 +814,10 @@ function OrderTable(props) {
             <tr className="table-primary">
               <th scope="col">#</th>
               <th scope="col">Mã đơn hàng</th>
-              <th scope="col">Tên khách hàng</th>
+              <th scope="col">Tên {'\n'} khách hàng</th>
               <th scope="col">Số điện thoại</th>
-              <th scope="col">Tổng tiền</th>
-              <th scope="col">Thanh toán</th>
+              <th scope="col">Tổng {'\n'} tiền</th>
+              <th scope="col">Thanh {'\n'} toán</th>
               <th scope="col">Tình trạng đơn hàng</th>
               <th scope="col">Ngày đặt hàng</th>
               <th scope="col" style={{ width: '10%' }}></th>
