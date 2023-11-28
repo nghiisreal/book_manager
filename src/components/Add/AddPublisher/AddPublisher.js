@@ -63,7 +63,7 @@ export default function AddPublisher() {
 
     if (!isEmpty(publisherPhone)) {
       if (!regexPhone.test(publisherPhone.trim())) {
-        mess.publisherPhone = 'Điện thoại nhà xuất bản không được lớn hơn 11 số';
+        mess.publisherPhone = 'Điện thoại nhà xuất bản không được nhỏ hơn 10 và lớn hơn 11 số';
       }
     }
     setNotice(mess);
@@ -152,7 +152,7 @@ export default function AddPublisher() {
                     id="inputPhonePub"
                     name="publisher_phone"
                     aria-describedby="phonePubHelp"
-                    pattern="[0-9]{11}"
+                    pattern="[0-9]{10}[0-9]{1}"
                     maxLength={11}
                     onKeyDown={(event) => {
                       if (event.ctrlKey && event.key.toLowerCase() === 'a') {

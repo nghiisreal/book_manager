@@ -97,7 +97,7 @@ export default function UpdateCustomer() {
     }
     if (!isEmpty(state.customer_phone)) {
       if (!regexPhone.test(state.customer_phone.trim())) {
-        mess.customerPhone = 'Điện thoại khách hàng không được lớn hơn 11 số';
+        mess.customerPhone = 'Điện thoại khách hàng không được nhỏ hơn 10 và lớn hơn 11 số';
       }
     }
 
@@ -163,7 +163,7 @@ export default function UpdateCustomer() {
             id="inputPhoneCustomer"
             name="customer_phone"
             aria-describedby="phoneCustomerHelp"
-            pattern="[0-9]{11}"
+            pattern="[0-9]{10}[0-9]{1}"
             maxLength={11}
             value={state.customer_phone}
             onKeyDown={(event) => {
