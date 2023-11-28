@@ -26,7 +26,7 @@ export default function Statistic(props) {
         <div className="col-sm-12 col-md-6 chart__statistic">
           <ChartBarRevenue />
         </div>
-        <div className="col-sm-12 col-md-6 ms-1 chart__statistic2">
+        <div className="col-sm-12 col-md-6 chart__statistic2">
           <ChartBarExpense />
         </div>
       </div>
